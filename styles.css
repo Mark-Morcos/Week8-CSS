@@ -1,0 +1,71 @@
+body {
+    background-color:rgb(197, 207, 224) ;
+   }
+h4,h3{
+    font-style: italic;
+    color: black;
+    font-size: large;
+}
+   .MainTitle{
+       text-align: center;
+       color: blueviolet;
+       text-shadow: 1rem;
+       font-size: 40px;
+   }
+
+   .hov{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    }
+    
+    .hov:hover{
+    color: red;
+    }
+    .column {
+        flex: 30%;
+        padding: 5px;
+      }
+      .container {
+        display: flex;
+      }
+
+    #OfferTitle{
+        text-align:center;
+        font-size: 60px;
+        background-color:#FFFF00
+
+         
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-radius: 1rem;
+     
+      }
+      table{
+          width: 80%;
+      }
+     th {
+          background-color: blue;
+     }
+     *, *:before, *:after {
+        box-sizing: border-box;
+      }
+      input[type=text] {
+        padding:10px;
+        margin:10px 0;
+        border: none;
+        border-bottom: 2px solid red;
+      }
+      input[type=number] {
+        padding:10px;
+        margin:10px 0;
+        border: none;
+        border-bottom: 2px solid rgb(145, 61, 61);
+        
+      }
+      h7{
+          font-style:oblique;
+          font-weight: bold;
+          
+      }
